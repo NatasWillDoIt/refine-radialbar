@@ -30,10 +30,10 @@ Config.CancelKey    = 73       -- X Button
 Config.Easing       = "easeLinear" 
 
 Config.DisableControls = {
-    disableMovement     = false,
-    disableCarMovement  = false,
+    disableMovement     = true,
+    disableCarMovement  = true,
     disableMouse        = false,
-    disableCombat       = false
+    disableCombat       = true
 }
 
 InventoryBusy = function(bool)
